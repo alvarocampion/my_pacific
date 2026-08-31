@@ -1412,7 +1412,7 @@ delta: {value: latestRows.filter(row => row.GEO_PICT !== "ALL").reduce(
       <footer style={{ marginTop: 24, paddingTop: 14, borderTop: `1px solid ${TOKENS.hair}` }}>
         <p style={{ fontFamily: TOKENS.font.mono, fontSize: 10.5, color: TOKENS.faint, lineHeight: 1.6, margin: 0 }}>
           Created by Alvaro Campion Mezquíriz • Pacific Climatic Risk • <a
-  href="https://github.com/your-user/your-repository"
+  href="https://github.com/alvarocampion/my_pacific"
   target="_blank"
   rel="noopener noreferrer"
   style={{
@@ -1420,7 +1420,7 @@ delta: {value: latestRows.filter(row => row.GEO_PICT !== "ALL").reduce(
     textDecoration: "none"
   }}
 >
-  github.com/your-user/your-repository
+  github.com/alvarocampion/my_pacific
 </a>
         </p>
       </footer>

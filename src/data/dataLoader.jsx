@@ -3,6 +3,9 @@
 import * as d3 from "d3";
 
 export async function loadDatasets() {
+  const base = import.meta.env.BASE_URL;
+
+  console.log("base", base);
   const [radarRows, seaGlobal, seaPacificRaw] = await Promise.all([
     d3.csv("/data/radar_consolidated_dataset.csv", d3.autoType),
     d3.csv("/data/global_sealevel_consolidated_dataset.csv", d3.autoType),
